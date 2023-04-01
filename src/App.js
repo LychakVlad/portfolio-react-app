@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Skills from './components/Skills';
 import ReactFullpage from '@fullpage/react-fullpage';
 import Projects from './components/Projects';
+import About from './components/Pages/About';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Skills />
       <Projects />
+      <About />
     </div>
   );
 }

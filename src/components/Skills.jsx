@@ -12,8 +12,8 @@ import Git from '../assets/git.svg';
 import Node from '../assets/node-js.svg';
 import Npm from '../assets/npm.svg';
 import SkillItem from './SkillItem';
-import LargeTitle from './LargeTitle';
-import LargeSubTitle from './LargeSubTitle';
+import LargeTitle from './Titles/LargeTitle';
+import LargeSubTitle from './Titles/LargeSubTitle';
 
 const Skills = () => {
   return (

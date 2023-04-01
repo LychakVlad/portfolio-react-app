@@ -1,26 +1,25 @@
 import React from 'react';
-import MediumTitle from './MediumTitle';
+import MediumTitle from './Titles/MediumTitle';
 import GitHub from '../assets/github.svg';
 import Search from '../assets/search.svg';
 
-const ProjectItem = ({ link, title, description, techs }) => {
-  console.log(techs);
+const ProjectItem = ({ link, project }) => {
   return (
-    <div className="flex rounded-3xl overflow-hidden bg-white p-16 items-center mb-14">
+    <div className="flex rounded-3xl overflow-hidden bg-white p-16 items-center mb-14 hover:scale-105 transition-transform duration-300 cursor-default">
       <div className=" max-w-sm mr-8">
-        <MediumTitle title={title} />
-        <p>{description}</p>
+        <MediumTitle title={project.title} />
+        <p>{project.description}</p>
         <div className="mt-5">
-          {techs.map((item) => (
-            <span className=" p-1 px-5 bg-slate-300 rounded-md  mr-5">
+          {project.techs.map((item) => (
+            <span className=" p-1 px-5 bg-slate-300 rounded-md  mr-5 pointer-events-none">
               {item}
             </span>
           ))}
         </div>
         <div className="flex mt-8">
           <a
-            href="https://github.com/LychakVlad/e-commerce-clothing-shop"
-            className="flex items-center mr-6 hover:opacity-80 transition-opacity duration-300"
+            href={project.link2}
+            className="flex items-center mr-6 hover:opacity-80 transition-opacity duration-300 cursor-pointer"
             target="_blank"
             rel="noreferrer"
           >
@@ -36,8 +35,8 @@ const ProjectItem = ({ link, title, description, techs }) => {
             </p>
           </a>
           <a
-            href="https://lychakvlad.github.io/e-commerce-clothing-shop/"
-            className="flex items-center mr-6 hover:opacity-80 transition-opacity duration-300"
+            href={project.link1}
+            className="flex items-center mr-6 hover:opacity-80 transition-opacity duration-300 cursor-pointer"
             target="_blank"
             rel="noreferrer"
           >
@@ -55,7 +54,7 @@ const ProjectItem = ({ link, title, description, techs }) => {
         </div>
       </div>
       <div className="" style={{ width: '600px' }}>
-        <img src={link} alt={title} />
+        <img src={link} alt={project.title} />
       </div>
     </div>
   );
