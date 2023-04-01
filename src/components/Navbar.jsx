@@ -5,7 +5,7 @@ import { FaBars } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
-    <div className="section h-[90px] flex justify-between container xl  mx-auto items-center  text-indigo-950 text-2xl font-poppins">
+    <div className="section h-[90px] flex justify-evenly container xl  mx-auto items-center  text-indigo-950 text-2xl font-poppins">
       <div>
         <ul className="flex">
           <li className="px-4">Home</li>

@@ -12,17 +12,15 @@ import Git from '../assets/git.svg';
 import Node from '../assets/node-js.svg';
 import Npm from '../assets/npm.svg';
 import SkillItem from './SkillItem';
+import LargeTitle from './LargeTitle';
+import LargeSubTitle from './LargeSubTitle';
 
 const Skills = () => {
   return (
     <div className="section container xl  mx-auto min-h-screen text-indigo-950 flex items-center font-poppins flex-col">
       <div className="text-center my-20">
-        <h3 className="font-bold text-5xl leading-tight text-indigo-900  my-4">
-          My Tech Stack
-        </h3>
-        <p className=" font-normal  text-3xl text-slate-600">
-          Technologies I have been working with recently
-        </p>
+        <LargeTitle title="My Tech Stack" />
+        <LargeSubTitle title="Technologies I have been working with recently" />
       </div>
       <div className="grid grid-cols-6 grid-rows-2 gap-14">
         <SkillItem link={Html} title={'HTML5'} />
