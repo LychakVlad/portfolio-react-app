@@ -3,10 +3,11 @@ import Photo from '../assets/photo.jpg';
 
 const Home = () => {
   return (
-    <div className="container xl m-auto min-h-screen text-indigo-950 flex items-center justify-around">
+    <div className="section container xl m-auto min-h-screen text-indigo-950 flex items-center justify-around font-poppins">
       <div>
         <h1 className="font-bold  text-7xl   mx-4  leading-tight">
-          Hi 👋 <br /> My name is{' '}
+          Hi <span className="inline-block">👋 </span>
+          <br /> My name is{' '}
           <p className="bg-gradient-to-r from-blue-400 to-emerald-400 text-transparent bg-clip-text">
             Vladislav Lychak
           </p>
