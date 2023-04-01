@@ -5,10 +5,10 @@ import Search from '../assets/search.svg';
 
 const ProjectItem = ({ link, project }) => {
   return (
-    <div className="flex rounded-3xl overflow-hidden bg-white p-16 items-center mb-14 hover:scale-105 transition-transform duration-300 cursor-default">
+    <div className="flex rounded-3xl overflow-hidden bg-white p-16 items-center mb-14 hover:scale-105 transition-transform duration-300 cursor-default shadow-xl">
       <div className=" max-w-sm mr-8">
         <MediumTitle title={project.title} />
-        <p>{project.description}</p>
+        <p className="text-slate-600">{project.description}</p>
         <div className="mt-5">
           {project.techs.map((item) => (
             <span className=" p-1 px-5 bg-slate-300 rounded-md  mr-5 pointer-events-none">

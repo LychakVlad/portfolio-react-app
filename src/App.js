@@ -4,6 +4,8 @@ import Skills from './components/Skills';
 import ReactFullpage from '@fullpage/react-fullpage';
 import Projects from './components/Projects';
 import About from './components/Pages/About';
+import Contact from './components/Pages/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Skills />
       <Projects />
       <About />
+      <Contact />
+      <Footer />
     </div>
   );
 }

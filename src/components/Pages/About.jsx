@@ -11,9 +11,9 @@ const About = () => {
         <LargeTitle title="About me" />
       </div>
       <div className="grid  grid-cols-3">
-        <div className=" bg-white p-12  rounded-3xl  mr-12 hover:scale-105 transition-transform duration-300 cursor-default relative group">
+        <div className=" bg-white p-12  rounded-3xl  mr-12 hover:scale-105 transition-transform duration-300 cursor-default relative group shadow-xl">
           <MediumTitle title="Experience" />
-          <p>
+          <p className="text-slate-600">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo,
             adipisci quis repudiandae placeat libero sed, alias ullam veniam
             velit, cupiditate eius. Fuga voluptatum repudiandae quod nostrum
@@ -21,9 +21,9 @@ const About = () => {
             corporis officia reiciendis beatae.
           </p>
         </div>
-        <div className=" bg-white p-12  rounded-3xl mr-12 hover:scale-105 transition-transform duration-300 cursor-default relative group">
+        <div className=" bg-white p-12  rounded-3xl mr-12 hover:scale-105 transition-transform duration-300 cursor-default relative group shadow-xl">
           <MediumTitle title="Personal" />
-          <p>
+          <p className="text-slate-600">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo,
             adipisci quis repudiandae placeat libero sed, alias ullam veniam
             velit, cupiditate eius. Fuga voluptatum repudiandae quod nostrum
@@ -31,7 +31,7 @@ const About = () => {
             corporis officia reiciendis.
           </p>
         </div>
-        <div className=" bg-white  rounded-3xl  overflow-hidden relative">
+        <div className=" bg-white  rounded-3xl  overflow-hidden relative shadow-xl">
           <img
             src={HikingPhoto}
             alt="photo"

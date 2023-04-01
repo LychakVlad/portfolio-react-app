@@ -6,7 +6,7 @@ const Home = () => {
     <div className="section container xl m-auto min-h-screen text-indigo-950 flex items-center justify-around font-poppins">
       <div>
         <h1 className="font-bold  text-7xl   mx-4  leading-tight">
-          Hi <span className="inline-block">👋 </span>
+          Hi <span className="inline-block animate-waving-hand">👋 </span>
           <br /> My name is{' '}
           <p className="bg-gradient-to-r from-blue-400 to-emerald-400 text-transparent bg-clip-text">
             Vladislav Lychak

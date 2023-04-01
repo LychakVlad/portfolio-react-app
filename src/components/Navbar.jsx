@@ -1,11 +1,10 @@
 import React from 'react';
-import Github from '../assets/github.svg';
-import Linkedin from '../assets/linkedin.svg';
 import { FaBars } from 'react-icons/fa';
+import IconsSection from './IconsSection';
 
 const Navbar = () => {
   return (
-    <div className="section h-[90px] flex justify-evenly container xl  mx-auto items-center  text-indigo-950 text-2xl font-poppins">
+    <div className=" section h-[90px] flex justify-evenly container xl  mx-auto items-center  text-indigo-950 text-2xl font-poppins">
       <div>
         <ul className="flex">
           <li className="px-4">Home</li>
@@ -15,24 +14,7 @@ const Navbar = () => {
           <li className="px-4">Contact</li>
         </ul>
       </div>
-      <div className="flex">
-        <a
-          href="https://github.com/LychakVlad"
-          target="_blank"
-          rel="noreferrer"
-          className="px-2"
-        >
-          <img src={Github} alt="github link" style={{ width: '50px' }} />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/vladislav-lychak/"
-          target="_blank"
-          rel="noreferrer"
-          className="px-2"
-        >
-          <img src={Linkedin} alt="linkedin link" style={{ width: '50px' }} />
-        </a>
-      </div>
+      <IconsSection />
 
       <div className="hidden">
         <FaBars />
