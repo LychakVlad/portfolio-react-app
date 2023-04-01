@@ -17,7 +17,10 @@ import LargeSubTitle from './Titles/LargeSubTitle';
 
 const Skills = () => {
   return (
-    <div className="section container xl  mx-auto min-h-screen text-indigo-950 flex items-center font-poppins flex-col">
+    <div
+      id="skills"
+      className="section container xl  mx-auto min-h-screen text-indigo-950 flex items-center font-poppins flex-col"
+    >
       <div className="text-center my-20">
         <LargeTitle title="My Tech Stack" />
         <LargeSubTitle title="Technologies I have been working with recently" />

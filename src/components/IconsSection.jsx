@@ -2,6 +2,7 @@ import React from 'react';
 import Github from '../assets/github.svg';
 import Linkedin from '../assets/linkedin.svg';
 import Google from '../assets/google.svg';
+import Telegram from '../assets/telegram.svg';
 
 const IconsSection = () => {
   return (
@@ -27,6 +28,14 @@ const IconsSection = () => {
         className="px-2 hover:opacity-80  transition-opacity duration-300"
       >
         <img src={Linkedin} alt="linkedin link" style={{ width: '50px' }} />
+      </a>
+      <a
+        href="https://t.me/Relast1"
+        target="_blank"
+        rel="noreferrer"
+        className="px-2 hover:opacity-80  transition-opacity duration-300"
+      >
+        <img src={Telegram} alt="telegram link" style={{ width: '50px' }} />
       </a>
     </div>
   );

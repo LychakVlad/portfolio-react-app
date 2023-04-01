@@ -3,7 +3,10 @@ import Photo from '../assets/photo.jpg';
 
 const Home = () => {
   return (
-    <div className="section container xl m-auto min-h-screen text-indigo-950 flex items-center justify-around font-poppins">
+    <div
+      id="home"
+      className="section container xl m-auto min-h-screen text-indigo-950 flex items-center justify-around font-poppins"
+    >
       <div>
         <h1 className="font-bold  text-7xl   mx-4  leading-tight">
           Hi <span className="inline-block animate-waving-hand">👋 </span>

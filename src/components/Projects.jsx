@@ -35,7 +35,10 @@ const Projects = () => {
   };
 
   return (
-    <div className="section container xl  mx-auto min-h-screen text-indigo-950 flex items-center font-poppins flex-col">
+    <div
+      id="projects"
+      className="section container xl  mx-auto min-h-screen text-indigo-950 flex items-center font-poppins flex-col"
+    >
       <div className="text-center my-20">
         <LargeTitle title="Projects" />
         <LargeSubTitle title="Things i have built so far" />

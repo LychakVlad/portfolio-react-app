@@ -6,7 +6,10 @@ import HikingPhoto from '../../assets/hiking.JPG';
 
 const About = () => {
   return (
-    <div className="section container xl  mx-auto min-h-screen text-indigo-950 flex items-center font-poppins flex-col">
+    <div
+      id="about"
+      className="section container xl  mx-auto min-h-screen text-indigo-950 flex items-center font-poppins flex-col"
+    >
       <div className="text-center my-20">
         <LargeTitle title="About me" />
       </div>
