@@ -10,17 +10,6 @@ const Navbar = () => {
         <ul className="flex">
           <li className="mx-4 relative group">
             <AnchorLink
-              href="#home"
-              className="hover:text-indigo-600 transition-colors duration-300"
-            >
-              Home
-            </AnchorLink>
-
-            <span className="absolute -bottom-1 left-1/2 w-0 h-[2px] bg-indigo-600 group-hover:w-1/2 group-hover:transition-all duration-300"></span>
-            <span className="absolute -bottom-1 right-1/2 w-0 h-[2px] bg-indigo-600 group-hover:w-1/2 group-hover:transition-all duration-300"></span>
-          </li>
-          <li className="mx-4 relative group">
-            <AnchorLink
               href="#skills"
               className="hover:text-indigo-600 transition-colors duration-300"
             >

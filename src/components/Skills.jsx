@@ -19,7 +19,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="section container xl  mx-auto min-h-screen text-indigo-950 flex items-center font-poppins flex-col"
+      className="section container xl  mx-auto min-h-full text-indigo-950 flex items-center font-poppins flex-col"
     >
       <div className="text-center my-20">
         <LargeTitle title="My Tech Stack" />
