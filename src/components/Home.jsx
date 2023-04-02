@@ -16,7 +16,8 @@ const Home = () => {
           </p>
         </h1>
         <h2 className="font-medium text-3xl   m-4  leading-tight text-indigo-900 max-w-md">
-          I have a passion for problem solving and creating new things
+          Front end developer with passion for problem solving and creating new
+          things
         </h2>
       </div>
       <div>

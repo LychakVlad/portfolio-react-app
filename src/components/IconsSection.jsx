@@ -9,7 +9,7 @@ const IconsSection = () => {
     <div className="flex">
       <a
         href="mailto: lycakvladislav@gmail.com"
-        className="px-2 hover:opacity-80  transition-opacity duration-300"
+        className="px-2 hover:opacity-70  transition-opacity duration-300"
       >
         <img src={Google} alt="gmail link" style={{ width: '50px' }} />
       </a>
@@ -17,7 +17,7 @@ const IconsSection = () => {
         href="https://github.com/LychakVlad"
         target="_blank"
         rel="noreferrer"
-        className="px-2 hover:opacity-80  transition-opacity duration-300"
+        className="px-2 hover:opacity-70  transition-opacity duration-300"
       >
         <img src={Github} alt="github link" style={{ width: '50px' }} />
       </a>
@@ -25,7 +25,7 @@ const IconsSection = () => {
         href="https://www.linkedin.com/in/vladislav-lychak/"
         target="_blank"
         rel="noreferrer"
-        className="px-2 hover:opacity-80  transition-opacity duration-300"
+        className="px-2 hover:opacity-70  transition-opacity duration-300"
       >
         <img src={Linkedin} alt="linkedin link" style={{ width: '50px' }} />
       </a>
@@ -33,7 +33,7 @@ const IconsSection = () => {
         href="https://t.me/Relast1"
         target="_blank"
         rel="noreferrer"
-        className="px-2 hover:opacity-80  transition-opacity duration-300"
+        className="px-2 hover:opacity-70  transition-opacity duration-300"
       >
         <img src={Telegram} alt="telegram link" style={{ width: '50px' }} />
       </a>

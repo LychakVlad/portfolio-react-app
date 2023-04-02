@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="section container xl  mx-auto min-h-full text-indigo-950 flex items-center font-poppins flex-col"
+      className="section container xl  mx-auto min-h-full text-indigo-950 flex items-center font-poppins flex-col mb-36"
     >
       <div className="text-center my-20">
         <LargeTitle title="About me" />
