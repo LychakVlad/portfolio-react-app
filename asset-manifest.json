@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio-react-website/static/css/main.67fcb48c.css",
-    "main.js": "/portfolio-react-website/static/js/main.b1c13aed.js",
+    "main.css": "/portfolio-react-website/static/css/main.e4869725.css",
+    "main.js": "/portfolio-react-website/static/js/main.0a685aea.js",
     "static/media/allegria.png": "/portfolio-react-website/static/media/allegria.93d8554164a9e2f53080.png",
     "static/media/portfolio.png": "/portfolio-react-website/static/media/portfolio.c94d057e29ff4b6bb85b.png",
     "static/media/ToDo.png": "/portfolio-react-website/static/media/ToDo.7fb32260c5c99bb24e40.png",
-    "static/media/photo.jpg": "/portfolio-react-website/static/media/photo.324434d82e74d431bdf8.jpg",
+    "static/media/photo.jpg": "/portfolio-react-website/static/media/photo.657b9abec2a3fea69469.jpg",
     "static/media/pug.svg": "/portfolio-react-website/static/media/pug.e22b8f03c7f0899d14cdaf125cc7d3e9.svg",
     "static/media/gulp.svg": "/portfolio-react-website/static/media/gulp.8a19caf934001e1b4ff883bbd5fa1082.svg",
     "static/media/github-2.svg": "/portfolio-react-website/static/media/github-2.3ecf27711255ef69c6785f9440457d46.svg",
@@ -25,11 +25,11 @@
     "static/media/css3.svg": "/portfolio-react-website/static/media/css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/html.svg": "/portfolio-react-website/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/npm.svg": "/portfolio-react-website/static/media/npm.8c0606a7c392a7d33d03e67c80d6f40a.svg",
-    "main.67fcb48c.css.map": "/portfolio-react-website/static/css/main.67fcb48c.css.map",
-    "main.b1c13aed.js.map": "/portfolio-react-website/static/js/main.b1c13aed.js.map"
+    "main.e4869725.css.map": "/portfolio-react-website/static/css/main.e4869725.css.map",
+    "main.0a685aea.js.map": "/portfolio-react-website/static/js/main.0a685aea.js.map"
   },
   "entrypoints": [
-    "static/css/main.67fcb48c.css",
-    "static/js/main.b1c13aed.js"
+    "static/css/main.e4869725.css",
+    "static/js/main.0a685aea.js"
   ]
 }
