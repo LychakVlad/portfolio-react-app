@@ -5,6 +5,7 @@ import ProjectItem from "../UI/ProjectItem";
 import Allegria from "../../assets/allegria.png";
 import News from "../../assets/news.png";
 import RecipeBlog from "../../assets/recipe-blog.png";
+import Medcal from "../../assets/medcal.png";
 
 const Projects = () => {
   const firstProject = {
@@ -14,6 +15,15 @@ const Projects = () => {
     techs: ["HTML", "Js", "Scss", "Gulp", "Pug", "Webpack"],
     link2: "https://github.com/LychakVlad/e-commerce-clothing-shop",
     link1: "https://lychakvlad.github.io/e-commerce-clothing-shop/",
+  };
+
+  const secondProject = {
+    title: "Microservice-driven Appointment Management System",
+    description:
+      "This web-based financial management application simplifies tracking income, managing expenses, calculating taxes, and budget planning, while ensuring secure user authentication.",
+    techs: ["React", "Redux", "CSS", "Firebase", "Jest", "Cypress"],
+    link2: "https://github.com/LychakVlad/financial-management-app",
+    link1: "https://budget-buddy-finance.netlify.app/",
   };
 
   const thirdProject = {
@@ -54,6 +64,7 @@ const Projects = () => {
         <LargeSubTitle title="Things i have built so far" />
       </div>
       <div className="max-lg:w-3/4 max-md:w-auto transition-all duration-300">
+        <ProjectItem link={Medcal} project={secondProject} />
         <ProjectItem link={News} project={thirdProject} />
         <ProjectItem link={RecipeBlog} project={fourthProject} />
         <ProjectItem link={Allegria} project={firstProject} />
